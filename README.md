@@ -7,6 +7,7 @@ https://arxiv.org/abs/2006.10093
 
 ## Citation
 
+```
 @inproceedings{lai-etal-2020-extensively,
     title = "Extensively Matching for Few-shot Learning Event Detection",
     author = "Lai, Viet Dac  and
@@ -21,6 +22,7 @@ https://arxiv.org/abs/2006.10093
     doi = "10.18653/v1/2020.nuse-1.5",
     pages = "38--45"
 }
+```
 
 ## Acknowledgement:
 
