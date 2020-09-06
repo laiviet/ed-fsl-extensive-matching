@@ -7,7 +7,8 @@ https://arxiv.org/abs/2006.10093
 
 ## Data
 
-I couldnt share my preprocessed dataset, please preprocess the data yourself with the following features
+I couldnt share my preprocessed dataset, you can purchase the data set from LDC https://catalog.ldc.upenn.edu/LDC2006T06
+please preprocess the data yourself with the following features
 
 ```
 indices: Glove/Word2vec indices of the sentence (B,N,K+Q,L)
