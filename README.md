@@ -8,21 +8,17 @@ https://arxiv.org/abs/2006.10093
 ## Data
 
 I couldnt share my preprocessed dataset, you can purchase the data set from LDC https://catalog.ldc.upenn.edu/LDC2006T06
-please preprocess the data yourself with the following features
+please preprocess the data yourself. 
 
-```
-indices: Glove/Word2vec indices of the sentence (B,N,K+Q,L)
-dist: indices of the relative position embedding (B,N,K+Q,L)
-length: length of sentence  (B,N,K+Q,1)
-mask: mask (0 mean padding tokens, 1 otherwise) (B,N,K+Q,L)
-anchor_index: index of the trigger/anchor word (B,N,K+Q,1)
+Where the function  ``utils.read_tac_from_pickle()`` in this line:
+https://github.com/laiviet/ed-fsl-extensive-matching/blob/6ee4c64ba727689c1d35e48f482b1a0731c57422/dataloader_v1.py#L63
+should return a ``data`` dictionary and a ``label2index`` dictionary whose data formats are shown in the 
 
-where 
-B is batch size, 
-N is number of classes, 
-K+Q is the number of sample in the support set and query set per class
-L is the max_sentence length
-```
+https://github.com/laiviet/ed-fsl-extensive-matching/blob/master/data.json
+
+and 
+
+https://github.com/laiviet/ed-fsl-extensive-matching/blob/master/label2index.json
 
 ## Citation
 
