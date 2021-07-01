@@ -10,8 +10,8 @@ https://arxiv.org/abs/2006.10093
 I couldnt share my preprocessed dataset, you can purchase the data set from LDC https://catalog.ldc.upenn.edu/LDC2006T06
 please preprocess the data yourself. 
 
-Where the function  ``utils.read_tac_from_pickle()`` in this line:
-https://github.com/laiviet/ed-fsl-extensive-matching/blob/6ee4c64ba727689c1d35e48f482b1a0731c57422/dataloader_v1.py#L63
+Where the function  ``utils.read_ace_data(utils.ACE)`` in this line:
+https://github.com/laiviet/ed-fsl-extensive-matching/blob/a20e617f621ebd2b906983073652251bf8aa9c3b/dataloader.py#L68
 should return a ``data`` dictionary and a ``label2index`` dictionary whose data formats are shown in the 
 
 https://github.com/laiviet/ed-fsl-extensive-matching/blob/master/data.json
