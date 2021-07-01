@@ -1,8 +1,8 @@
 {
    "train":[
       {
-         "id":"bc/timex2norm/CNN_CF_20030303.1900.00-24",
-         "label":"Movement:Transport",
+         "id":"bc/timex2norm/CNN_CF_20030303.1900.00-24", // ID of the sample, just for debugging purpose
+         "label":"Movement:Transport",                    // Label (reference from the label2index.json
          "sentence":"Even as the secretary of homeland_security was putting his people on high alert last_month , a 30 - foot Cuban patrol boat with four heavily armed men landed on American shores , utterly undetected by the Coast_Guard Secretary Ridge now leads .",
          "token":[
             "Even",
@@ -48,14 +48,14 @@
             "leads",
             "."
          ],
-         "anchor_index":27,
-         "target":26
+         "anchor_index":27,      // Index of the event trigger, index start at 0
+         "target":26             // Class index (Reference to label2index.json,  "Movement:Transport":26)
       }
    ],
    "dev":[
-      // Developement data
+      // Developement data, similar format
    ],
    "test":[
-      // Testing data
+      // Testing data, similar format
    ]
 }
